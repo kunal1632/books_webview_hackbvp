@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-book Library</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #ffffff;
+		}
+
+		header {
+			background-color: #2196F3;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+
+		.book-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 20px;
+		}
+
+		.book {
+			width: 30%;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			margin-bottom: 20px;
+			padding: 10px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.book img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+
+		.book h3 {
+			font-size: 18px;
+			margin: 0;
+		}
+
+		.book p {
+			font-size: 14px;
+			margin: 10px 0 0;
+			line-height: 1.4;
+		}
+
+		.book a {
+			display: inline-block;
+			background-color: #2196F3;
+			color: #fff;
+			padding: 5px 10px;
+			border-radius: 4px;
+			margin-top: 10px;
+			transition: background-color 0.3s;
+		}
+
+		.book a:hover {
+			background-color: #0b7dda;
+		}
+
+	</style>
+    <script>
+		function openFile1() {
+			window.location.href = "book1.html";
+		}
+		function openFile2() {
+			window.location.href = "book2.html";
+		}
+		function openFile3() {
+			window.location.href = "book3.html";
+		}
+		function openFile4() {
+			window.location.href = "book4.html";
+		}
+		function openFile5() {
+			window.location.href = "book5.html";
+		}
+		function openFile6() {
+			window.location.href = "book6.html";
+		}
+		function openFile7() {
+			window.location.href = "book7.html";
+		}
+		function openFile8() {
+			window.location.href = "book8.html";
+		}
+		function openFile9() {
+			window.location.href = "book9.html";
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<h1>E-book Library</h1>
+	</header>
+	<div class="container">
+		<h2>Featured Books</h2>
+		<div class="book-container">
+			<div class="book" onclick="openFile1()">
+				<img src="books\book1.jpg" alt="Book 1">
+				<h3>Python For Everybody</h3>
+			</div>
+			<div class="book" onclick="openFile2()">
+				<img src="books\book2.jpg" alt="Book 2">
+				<h3>Think Python</h3>
+			</div>
+			<div class="book" onclick="openFile3()">
+				<img src="books\book3.jpg" alt="Book 3">
+				<h3>Beginner's Python Cheat Sheet</h3>
+			</div>
+			<div class="book" onclick="openFile4()">
+				<img src="books\book4.jpg" alt="Book 4">
+				<h3>Making Games with Python & Pygame</h3>
+			</div>
+			<div class="book" onclick="openFile5()">
+				<img src="books\book5.jpg" alt="Book 5">
+				<h3>How To Code in Python 3 Lisa Tagliaferri</h3>
+			</div>
+			<div class="book" onclick="openFile6()">
+				<img src="books\book6.jpg" alt="Book 6">
+				<h3>100 Pages Python Intro</h3>
+			</div>
+			<div class="book" onclick="openFile7()">
+				<img src="books\book7.jpg" alt="Book 7">
+				<h3>Algorithmic Problem Solving with Python</h3>
+			</div>
+			<div class="book" onclick="openFile8()">
+				<img src="books\book8.jpg" alt="Book 8">
+				<h3>Python3 documentation Tutorials Point</h3>
+			</div>
+			<div class="book" onclick="openFile9()">
+				<img src="books\book9.jpg" alt="Book 9">
+				<h3>Problem Solving with Algorithms and Data Structures</h3>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
